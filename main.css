@@ -1,0 +1,98 @@
+.BarraOpcoes{
+    background-color: #1c556b;
+    width: 150px; /* largura do menu */
+    height: 200vh; /* altura total da viewport */
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 30px; /* espaço acima dos botões */
+    
+}
+
+.BarraOpcoes button {
+    display: block;
+    margin: 10px;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #ddd;
+    border: none;
+    border: 1px solid #070404;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.BarraOpcoes button:hover {
+    background-color: #bbb; 
+}
+
+
+.OutrasOpcoes {
+    padding-top: 100px; /* espaço acima dos botões */
+}
+
+.OutrasOpcoes button {
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #ddd;
+    border: none;
+    border: 1px solid #000000;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.OutrasOpcoes button:last-child {
+    border-bottom: none; /* remova a borda inferior do último botão */
+}
+
+.Imagem_Logo {
+    width: 100px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+main {
+    margin-left: 220px; /* Largura da Barra de Opções + 20px de margem */
+    padding: 20px;
+}
+
+#CadastroFuncionarios {
+    padding: 20px;
+    margin: 10px;
+    background-color: #c4c8eb; 
+    border: 1px solid #080505; 
+    border-radius: 10px; 
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#CadastroFuncionarios input {
+    margin-bottom: 10px; /* Adiciona espaçamento entre os inputs */
+}
+
+.TextCadastroFun{
+    padding: 10px;
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #2c0f96;
+    color: white;
+    text-align: center;
+}

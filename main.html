@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de RH</title>
+    <link rel="icon" href="rh.png" type="image/png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.6/inputmask.min.js"></script>
+</head>
+<body>
+    <div class="BarraOpcoes">
+        <img src="Logo.png"  alt="Logo da Empresa" class="Imagem_Logo">
+        <button id="cadastrarBtn">Cadastrar</button>
+        <button id="editarBtn">Editar</button>
+        <button id="excluirBtn">Excluir</button>
+        <button class="visualizarBtn" id="visualizarBtn">Relatório</button>
+        <div class="OutrasOpcoes">
+            <button>Configurações</button>
+            <button class="botaoFechar"><a href="index.html">Sair</button></a>
+        </div>
+    </div>
+
+    <main>
+        <div id="CadastroFuncionarios">
+            <h2 class="TextCadastroFun">Controle de Funcionários</h2>
+            <input type="text" id="nomeInput" placeholder="Nome:">
+            <input type="text" id="cpfInput" placeholder="CPF" maxlength="11">
+            <input type="number" id="salarioInput" placeholder="Salário">
+            <input type="text" id="funcaoInput" placeholder="Função">
+            <input type="text" id="departamentoInput" placeholder="Departamento">
+            <div class="apiCorreio">
+                <input type="text" id="cepInput" placeholder="CEP" maxlength="8">
+                <button class="api">Pesquisar</button>
+            </div>
+            <input type="text" id="logradouro" placeholder="Lougradouro">
+            <input type="text" id="numero" placeholder="Numero">
+            <input type="text" id="bairro" placeholder="Bairro">
+            <input type="text" id="cidade" placeholder="Cidade">
+            <input type="text" id="uf" placeholder="UF">
+        </div>
+        <div id="Saida">
+                <table border="1" width="100%">
+                    <tr>
+                        <th></th>
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>Salário</th>
+                        <th>Função</th>
+                        <th>Departamento</th>
+                        <th>CEP</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

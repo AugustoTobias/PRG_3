@@ -1,0 +1,85 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #59565f;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between; /* Distribui os itens ao longo do cabeçalho */
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+button {
+    background-color: #3e2fca;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.cabecalho {
+    text-align: left; /* Centraliza o conteúdo */
+}
+
+.cabecalho img, .cabecalho h1, .cabecalho button {
+    display: inline-block; /* Coloca os elementos lado a lado */
+    vertical-align: middle; /* Alinha verticalmente */
+    margin: 0 10px; /* Adiciona um espaçamento entre os elementos */
+}
+
+.Imagem_Logo {
+    width: 100px; /* Tamanho da imagem */
+    height: auto; /* Mantém a proporção */
+}
+
+#info {
+    text-align: justify; /* Alinha o texto justificado */
+    background-image: url('teste4.png'); /* Substitua 'caminho/para/sua/imagem.jpg' pelo caminho correto da sua imagem */
+    background-size: cover; /* Faz com que a imagem de fundo cubra toda a área da seção */
+    background-position: center; /* Centraliza a imagem de fundo na seção */
+    padding: 40px 0; /* Adiciona um espaçamento interno à seção */
+    opacity: 0.7;
+}
+
+#info h3 {
+    margin: 10px 0; /* Adiciona um espaçamento entre os itens */
+    color: #000000; /* Define a cor do texto para branco para garantir legibilidade */
+}
+
+#about {
+    text-align: justify; /* Alinha o texto justificado */
+}
+
+#about h3 {
+    margin: 10px 0; /* Adiciona um espaçamento entre os itens */
+}
+
